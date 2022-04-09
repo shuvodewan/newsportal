@@ -1,0 +1,51 @@
+/*-------------------------------
+ Polls Area Start
+--------------------------------*/
+.polls-page{
+    .poll-area{
+        .poll-box{
+            .title{
+                font-size: 18px;
+                margin-bottom: 22px;
+            }
+        }
+    }
+}
+.poll-area{
+    .options{
+        .single-option{
+            margin-bottom: 14px;
+            .header{
+                display: flex;
+                justify-content: space-between;
+                label{
+                    font-weight: 600;
+                    margin-bottom: 3px;
+                }
+            }
+            &:last-child{
+                margin-bottom: 0px;
+            }
+            .progress{
+                height: 15px;
+            }
+        }
+    }
+    .total-vot{
+        margin-top: 12px;
+        font-weight: 600;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+
+
+
+
+/*-------------------------------
+ Polls Area End
+--------------------------------*/
+

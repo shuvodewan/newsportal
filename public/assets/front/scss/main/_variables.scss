@@ -1,0 +1,53 @@
+
+//== Template Main Color
+$base-color: #9C27B0;
+$base-color2: #101d29;
+$white: #fff;
+$body-color: #29293a;
+$heading-color: #29293a;
+$star-color: #fc9715;
+
+
+
+
+//== social media colors
+$facebook: #0069f7;
+$twitter: #00c6f7;
+$dribbble: #f7007a;
+$google-plus: #d1062c;
+$linkedin: #007bb5;
+
+
+
+// custum font Size
+
+
+
+
+
+
+
+
+/*-----------------
+    @Typography
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+$body-font: 'Open Sans', sans-serif;
+$heading-font: 'Open Sans', sans-serif;
+//== font sizes
+$base-font-size: 14px !default;
+$font-size-h1: 60px !default;
+$font-size-h2: 52px !default;
+$font-size-h3: 26px !default;
+$font-size-h4: 22px !default;
+//** Unit-less `line-height` for use in components like buttons.
+$line-height: 1.6 !default; // 24/15
+// border-radius
+$border-radius-5: 5px !default;
+$border-radius-25: 25px !default;
+$border-radius-3: 3px !default;
+$border-radius-circle: 50% !default;
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

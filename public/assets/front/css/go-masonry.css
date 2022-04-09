@@ -1,0 +1,82 @@
+.button-area .button {
+  display: inline-block;
+  padding: 10px;
+  margin: 30px 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.button-area .button:hover {
+  background-color: rgba(255, 255, 255, 0.32);
+}
+.button-area .button.active {
+  background-color: rgba(255, 255, 255, 0.52);
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6) inset;
+}
+.button-area input[type=checkbox] {
+  display: none;
+}
+
+#mnsry_container {
+  position: relative;
+}
+#mnsry_container:hover img {
+  opacity: 0.28;
+}
+#mnsry_container article {
+  width: 33.3%;
+  min-height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+}
+#mnsry_container article h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff3737;
+  opacity: 0;
+  width: 100%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  transition: 1s;
+}
+#mnsry_container article:hover h1 {
+  opacity: 1;
+}
+#mnsry_container article img {
+  display: block;
+  width: 100%;
+  transition: all .8s;
+}
+#mnsry_container article:hover img {
+  opacity: 1;
+  transform: scale(1.04);
+}
+
+#loading_msg {
+  position: fixed;
+  top: 48%;
+  width: 100%;
+  z-index: -1;
+}
+.button-area.filters {
+  text-align: center;
+}
+
+@media (max-width: 860px) {
+  #mnsry_container article {
+    width: 50%;
+    min-height: 150px;
+  }
+}
+@media (max-width: 667px) {
+  #mnsry_container article {
+    width: 100%;
+    min-height: 220px;
+  }
+}

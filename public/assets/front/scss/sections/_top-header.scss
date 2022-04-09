@@ -1,0 +1,47 @@
+    /*-------------------------
+        Top Header Area Start
+    --------------------------*/
+    .top-header{
+        padding-top: 15px;
+        .content{
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+            border-bottom: 1px solid $base-color;
+            border-top: 1px solid #fff;
+            .left-content{
+            position: relative;
+            display: flex;
+            .heading{
+                background: $base-color;
+                color: #fff;
+                font-size: 14px;
+                padding: 6px 15px;
+                text-transform: uppercase;
+                font-weight: 600;
+                display: inline-block;
+                margin-right: 0px;
+             }
+             .marquee{
+                 flex: 1;
+                 font-size: 14px;
+                 width: 100%;
+                 top: 5px;
+                 position: relative;
+             }
+            }
+            .right-content{
+                width: 230px;
+                background: $base-color;
+                color: #fff;
+                font-size: 14px;
+                padding: 6px 10px;
+                font-weight: 600;
+                display: inline-block;
+                text-align: center;
+                .time-now{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }

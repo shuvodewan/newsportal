@@ -1,0 +1,111 @@
+html{
+  direction: rtl !important;
+}
+.owl-carousel{
+  direction: ltr;
+}
+ul.navbar-nav.mr-auto{
+  margin-left: auto !important;
+  margin-right: 0px !important;
+}
+.single-news .content-wrapper .inner-content,
+.single-box.landScape-small-with-meta .content,
+.social-links li a,
+.home-front-area .tags-widget .tag-list,
+.poll-area .poll-box,
+.aside-newsletter-widget,
+.video-gallery-box .all-item-slider li a .right,
+.aside-newsletter-widget .text,
+.more-news .single-news.land-scap-medium .content,
+.footer .footer-widget .title,
+.footer .tags-widget .tag-list,
+.footer .blog-widget .post-list li .post .post-details,
+.footer .footer-widget ul,
+.footer .footer-logo,
+.footer .about-widget .text,
+.footer .fotter-social-links ul,
+.footer .copy-bg .content,
+.single-news,
+.breadcrumb-area,
+.mainmenu-area .navbar #main_menu .navbar-nav .nav-item.mega-menu .nav .nav-link,
+.single-news-menu .content-wrapper .inner-content 
+
+{
+  text-align: right;
+}
+.breadcrumb-area .pages li a {
+  margin-right: 0px;
+  margin-left: 17px;
+}
+.breadcrumb-area .pages li a::after {
+  right: auto;
+  left: -18px;
+  transform: rotate(180deg);
+  top: -2px;
+}
+.single-news-menu .content-wrapper .img .tag {
+  left: auto;
+  right: 15px;
+}
+.single-news .content-wrapper .tag,
+.more-news .single-news.land-scap-medium .img .tag
+{
+  top: 15px;
+  left: auto;
+  right: 15px;
+}
+.social-links li a i{
+  margin-right: 0px;
+  margin-left: 6px;
+}
+.custom-control {
+  padding-left: auto;
+  padding-right: 1.5rem;
+}
+.custom-control-label::before {
+  left: auto;
+  right: -1.5rem;
+}
+.custom-control-label::after {
+  left: auto;
+  right: -1.5rem;
+}
+.video-gallery-box .all-item-slider li a .left {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+
+.header-area {
+  direction: rtl;
+}
+.more-news .single-news.land-scap-medium .img {
+  margin-right: 0px;
+  margin-left: 20px;
+}
+.footer .blog-widget .post-list li .post .post-img {
+  margin-right: 0px;
+  margin-left: 15px;
+}
+
+.news-details-page .details-post .single-news .img .tag {
+  left:auto;
+  right: 20px;
+}
+.main-top-header .top-header-content .right-content .list li.user-profile .dropdown-menu {
+  border: 0px;
+  top: 99%;
+  left: 0px;
+  right: auto;
+}
+.categori-page-news .categoti-content-area .row,
+.categori-page-news .categoti-content-area .row p,
+.categori-page-news .categoti-content-area .row h1,
+.categori-page-news .categoti-content-area .row h2,
+.categori-page-news .categoti-content-area .row h3,
+.categori-page-news .categoti-content-area .row h4,
+.categori-page-news .categoti-content-area .row h5,
+.categori-page-news .categoti-content-area .row h6,
+.categori-page-news .categoti-content-area .row span
+.categori-page-news .categoti-content-area .row a{
+  text-align: right!important;
+}

@@ -1,0 +1,182 @@
+/*-------------------------------
+  Details Area CSS
+--------------------------------*/
+.news-details-page{
+    .details-post{
+        .single-news{
+            .img{
+                position: relative;
+                .tag{
+                    position: absolute;
+                    top: 20px;
+                    left: 20px;
+                    background: $base-color;
+                    color: #fff;
+                    padding: 1px 12px;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+           .content{
+               padding: 16px 0px 10px;
+               .title{  
+                   font-size: 20px;
+                   line-height: 30px;
+                   font-weight: 600;
+               }
+               .post-meta{
+                   padding: 5px 0px 14px;
+                   li{
+                       display: inline-block;
+                       margin-right: 10px;
+                       &:last-child{
+                           margin-right: 0px;
+                       }
+                       a{
+                           font-size: 14px;
+                           color: #7d7d7d;
+                           &:hover{
+                               color: $base-color;
+                           }
+                       }
+                   }
+               }
+               .heading{
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: 600;
+               }
+               img{
+                   width: 100%;
+                   margin: 5px 0px 15px;
+               }
+           } 
+           .post-footer{
+               border-top: 1px solid rgba(0, 0, 0, 0.10);
+               padding-top: 12px;
+               padding-bottom: 8px;
+               .social-share{
+                   display: inline-block;
+                   li{
+                       display: inline-block; 
+                       a{
+                           font-size: 14px;
+                           margin: 0px 2px;
+                           transition: $transition;
+                           &:hover{
+                               color: $base-color;
+                           }
+                       }
+                   }
+               }
+           }
+        }
+        .comment-area{
+            margin-top: 33px;
+            .header-area{
+                margin-bottom: 29px;
+            }
+            .all-comment-list{
+                > li{
+                  margin-bottom: 30px;  
+                }
+               li{
+                .single-comment{
+                    display: flex;
+                    padding-bottom: 20px;
+                   .left{
+                    margin-right: 30px;
+                       img{
+                           width: 65px;
+                           height: 65px;
+                           border-radius: 50%;
+                       }
+                   } 
+                   .right{
+                       flex: 1;
+                       .top-area{
+                           display: flex;
+                           margin-bottom: 7px;
+                           .name{
+                            margin-right: 20px;
+                            color: #143250;
+                            font-weight: 600;
+                            font-size: 16px;
+                           }
+                           .top-meta{
+                               li{
+                                   display: inline-block;
+                                   a, span{
+                                    color: #7a8794;
+                                   }
+                                   a{
+                                       transition: $transition;
+                                       &:hover{
+                                           color: $base-color;
+                                       }
+                                   }
+                               }
+                           }
+                       }
+                       .content{
+                        .text{
+                            margin-bottom: 10px;
+                            color: #101d29;
+                        }
+                       }
+                       .bottom-area{
+                           padding-top: 2px;
+                           li{
+                               display: inline-block;
+                               a, span{
+                                color: #7a8794;
+                               }
+                               a{
+                                transition: $transition;
+                                &:hover{
+                                    color: $base-color;
+                                }
+                            }
+                           }
+                       }
+                   }
+                   &.main-content{
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+                   }
+                }
+                .single-comment.replay{
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+                    margin-left: 85px;
+                    margin-top: 20px;
+                }
+               }
+            }
+            .show-more-area{
+                display: block;
+                text-align: center;
+                a{
+                    display: inline-block;
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    color: #143250;
+                }
+            }
+            .write-comment{
+                padding-top: 29px;
+                margin-bottom: 30px;
+                    .title{
+                        border-bottom: 0px;
+                        padding-bottom: 0px;
+                        font-weight: 600;
+                        font-size: 20px;
+                    }
+            }
+        }
+    }
+    .aside-newsletter-widget{
+        margin: 20px 0px 20px;
+    }
+}
+

@@ -1,0 +1,54 @@
+
+/*
+--------------------------
+	Css Indexing
+--------------------------
+	Table of Css Content
+	------- *** -------
+--------------------------
+** 
+--------------------------
+**  
+--------------------------
+**
+--------------------------
+** 
+--------------------------
+** 
+--------------------------
+** 
+--------------------------
+** 
+--------------------------
+
+*/
+
+
+@import "main/_variables";
+@import "main/_mixins";
+@import "main/_global";
+@import "main/_normalize";
+
+//=Section scss
+@import "sections/_top-header";
+@import "sections/_logo-header";
+@import "sections/_main-menu";
+@import "sections/_home-front-area";
+@import "sections/_video-gallery";
+@import "sections/_footer";
+
+
+
+
+//=Page scss
+@import "pages/_categori";
+@import "pages/_details";
+@import "pages/_polls";
+
+
+
+
+
+
+
+
